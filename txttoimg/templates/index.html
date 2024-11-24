@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Encryption GUI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Encryption Tool</h1>
+        
+        <div class="form-group">
+            <textarea id="inputData" placeholder="Enter text to encode or decode"></textarea>
+        </div>
+        
+        <div class="form-group">
+            <button onclick="encodeData()">Encode</button>
+            <button onclick="decodeData()">Decode</button>
+        </div>
+        
+        <div class="output-group">
+            <h2>Result:</h2>
+            <p id="outputData"></p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
